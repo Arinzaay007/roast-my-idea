@@ -532,7 +532,7 @@ Format: Subject line, blank line, then email body. Plain text only.`
         doc.setDrawColor(30, 30, 30); doc.setLineWidth(0.5);
         doc.line(margin, H - 30, W - margin, H - 30);
         doc.setFontSize(8); doc.setTextColor(50, 50, 50); doc.setFont("helvetica", "normal");
-        doc.text("roastmyidea.ai — confidential roast report", margin, H - 12);
+        doc.text("roast-my-idea-chi.vercel.app — confidential roast report", margin, H - 12);
         doc.text(`${i} / ${pages}`, W - margin, H - 12, { align: "right" });
       }
 
